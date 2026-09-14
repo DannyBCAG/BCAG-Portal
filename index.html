@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BCAG Portal</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0b4da0">
+<link rel="apple-touch-icon" href="icon-180.png">
+<style>
+body{margin:0;background:#fff;font-family:system-ui,sans-serif;color:#1e2e3f}
+.wrap{max-width:520px;margin:0 auto;padding:32px 20px 40px;text-align:center}
+.logo{width:140px;height:140px;object-fit:contain;display:block;margin:0 auto}
+@media(min-width:640px){.logo{width:180px;height:180px}}
+h1{color:#0b4da0;font-size:22px;margin:16px 0 0;font-weight:700}
+.sub{color:#4a5a6a;font-size:16px;margin:8px 0 0}
+.grid{margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(min-width:640px){.grid{grid-template-columns:1fr 1fr 1fr}}
+.card{display:flex;flex-direction:column;align-items:center;text-decoration:none;background:#fff;border-radius:18px;padding:12px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 8px 24px rgba(11,77,160,.06);border:1px solid rgba(0,0,0,.04)}
+.label{margin-top:10px;font-size:14px;font-weight:600}
+.footer{margin-top:32px;font-size:12px;color:#6b7b8c;letter-spacing:.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<img src="icon-512.png" alt="BCAG jar & brushes" class="logo">
+<h1>Welcome to our BCAG portal.</h1>
+<p class="sub">Wednesdays 1-4pm Blackburn leisure Brough</p>
+<div class="grid">
+<a class="card" href="https://photos.app.goo.gl/66HaCdTxtfhQxQNAA" target="_blank"><div style="width:72px;height:72px;border-radius:50%;background:#e6eef9;display:flex;align-items:center;justify-content:center">🖼️</div><div class="label">Gallery</div></a>
+<a class="card" href="https://photos.app.goo.gl/rdUkQqBu7gayCgBq9" target="_blank"><div style="width:72px;height:72px;border-radius:50%;background:#e6eef9;display:flex;align-items:center;justify-content:center">📄</div><div class="label">Templates</div></a>
+<a class="card" href="https://photos.app.goo.gl/TZUqp1fkd38j3RYh8" target="_blank"><div style="width:72px;height:72px;border-radius:50%;background:#e6eef9;display:flex;align-items:center;justify-content:center">👥</div><div class="label">Members Gallery</div></a>
+<a class="card" href="https://photos.app.goo.gl/qKj6pNcH7GchLksk7" target="_blank"><div style="width:72px;height:72px;border-radius:50%;background:#e6eef9;display:flex;align-items:center;justify-content:center">📰</div><div class="label">News</div></a>
+<a class="card" href="https://photos.app.goo.gl/JckPD4pamCFDE5sZ6" target="_blank"><div style="width:72px;height:72px;border-radius:50%;background:#e6eef9;display:flex;align-items:center;justify-content:center">📅</div><div class="label">Calendar</div></a>
+<a class="card" href="https://photos.app.goo.gl/4BjshK3FYRhfYu6p6" target="_blank"><div style="width:72px;height:72px;border-radius:50%;background:#e6eef9;display:flex;align-items:center;justify-content:center">🎨</div><div class="label">Materials</div></a>
+</div>
+<div class="footer">Brough Community Art Group</div>
+</div>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js')}</script>
+</body>
+</html>
